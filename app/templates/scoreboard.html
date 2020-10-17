@@ -1,0 +1,41 @@
+<html>
+<style>
+table, th, td {
+  border: 1px solid black;
+}
+h1{
+  color:red;
+}
+#teamName {
+  color:blue;
+}
+
+
+
+</style>
+{% extends "base.html" %}
+{% block content %}
+  <body>
+      <div id="scoreboard" class="scoreboard">
+        <h1>Scoreboard</h1>
+        <table id="scoreboard" class="scoreboard" style="width:100%">
+          <tr>
+            <th> Team Name </th>
+            <th> User Flags Submitted </th>
+            <th> Root Flags Submitted </th>
+            <th> Total Score </th>
+          </tr>
+          {% for team in teamnames %}
+          <tr>
+            <td id="teamName">{{ team.teamname }}</td>
+            <td>Will have to get this from database after updates</td>
+            <td>Will have to get this from database after updates</td>
+            <td>Will have to get this from database after updates </td>
+          </tr>
+          {% endfor %}
+        </table>
+      </div>
+  {% endblock %}
+</html>
+
+

@@ -1,0 +1,14 @@
+<html>
+  <head> 
+    {% if title %}
+    <title>{{ title }}</title>
+    {% else %}
+    <title>BLAHBLAHCTF</title>
+    {% endif %}
+  </head>
+  <body>
+    <div>CTF: <a href="/index">Home</a> <a href="/scoreboard">Scoreboard</a>  <a href="/challenges">Challenges</a> <a href="/statistics">Stats</a></div>
+    <hr>
+    {% block content %}{% endblock %}
+  </body>
+</html>
