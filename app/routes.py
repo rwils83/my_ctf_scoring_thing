@@ -4,7 +4,8 @@ from app.forms import LoginForm
 @app.route('/')
 @app.route('/index')
 def index():
-    user = {'username': 'Miguel'} # This will eventually turn to team names bro
+    """Using some quick things until I build the databases"""
+    user = {'username': 'Edgecase'}    
     teamnames = [{'teamname':'edgecase'}, {'teamname':'angerpacket'}]
 
     return render_template('index.html',teamnames=teamnames,title="Flag Submissions", user=user)
