@@ -405,7 +405,7 @@ virtualenv==20.0.35
 visvis==1.11.1
 volatility==1.0.0b1
 wafw00f==2.1.0
-waitress==1.4.1
+waitress==2.1.1
 wapiti3==3.0.3
 wcwidth==0.1.9
 webargs==6.1.0
