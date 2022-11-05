@@ -58,7 +58,7 @@ configobj==5.0.6
 constantly==15.1.0
 crackmapexec==5.0.2.dev0
 crcelk==1.3
-cryptography==3.2
+cryptography==3.3.2
 cupshelpers==1.0
 cycler==0.10.0
 Cython==0.29.21
@@ -225,7 +225,7 @@ pexpect==4.6.0
 pgspecial==1.11.10
 phonenumbers==8.12.1
 pickleshare==0.7.5
-Pillow==6.2.1
+Pillow==9.0.1
 plaster==1.0
 plaster-pastedeploy==0.5
 plecost==1.1.2
