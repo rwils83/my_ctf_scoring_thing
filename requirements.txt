@@ -140,7 +140,7 @@ ipdb==0.13.3
 ipwhois==0.15.1
 IPy==1.0
 ipykernel==5.3.4
-ipython==7.18.1
+ipython==8.10.0
 ipython-genutils==0.2.0
 ipywidgets==6.0.0
 isodate==0.6.0
