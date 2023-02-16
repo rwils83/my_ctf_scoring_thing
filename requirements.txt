@@ -415,7 +415,7 @@ websocket-client==0.57.0
 websockets==8.1
 websploit==4.0.4
 WebTest==2.0.34
-Werkzeug==1.0.1
+Werkzeug==2.2.3
 wfuzz==3.0.1
 whois==0.8
 widgetsnbextension==2.0.0
